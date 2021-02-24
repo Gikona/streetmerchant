@@ -15,6 +15,7 @@ import {AmazonIt} from './amazon-it';
 import {AmazonNl} from './amazon-nl';
 import {AmazonSg} from './amazon-sg';
 import {AmazonUk} from './amazon-uk';
+import {AmazonAE} from './amazon-ae';
 import {Amd} from './amd';
 import {AmdCa} from './amd-ca';
 import {AmdDe} from './amd-de';
@@ -89,6 +90,7 @@ import {Msy} from './msy';
 import {Mwave} from './mwave';
 import {NetonnetNO} from './netonnet-no';
 import {Newegg} from './newegg';
+import {NeweggAE} from './newegg-ae';
 import {NeweggCa} from './newegg-ca';
 import {NeweggSg} from './newegg-sg';
 import {Notebooksbilliger} from './notebooksbilliger';
@@ -159,6 +161,7 @@ export const storeList = new Map([
   [AmazonUk.name, AmazonUk],
   [AmazonSg.name, AmazonSg],
   [AmazonIt.name, AmazonIt],
+  [AmazonAE.name, AmazonAE],
   [Amd.name, Amd],
   [AmdCa.name, AmdCa],
   [AmdDe.name, AmdDe],
@@ -233,6 +236,7 @@ export const storeList = new Map([
   [Mwave.name, Mwave],
   [NetonnetNO.name, NetonnetNO],
   [Newegg.name, Newegg],
+  [NeweggAE.name, NeweggAE],
   [NeweggCa.name, NeweggCa],
   [NeweggSg.name, NeweggSg],
   [Notebooksbilliger.name, Notebooksbilliger],
